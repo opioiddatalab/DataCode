@@ -15,11 +15,11 @@ License: Creative Commons Sharealike 4.0 International<br>
 2. [Inactive Ingredients in Controlled Substances](https://github.com/opioiddatalab/ExcipientHarm/blob/master/inactive%20ingredients/allcsingredientswide.xls)<br>
 Published: November 14, 2019 by Nabarun Dasgupta<br>
 Observations: 18,876<br>
-Format: .xls<br>
+Format: .xls [codebook](https://github.com/opioiddatalab/ExcipientHarm/blob/master/inactive%20ingredients/inactive%20ingredients%20codebook.pdf)<br>
 Size: 8.8 MB<br>
 Origin: United States Food and Drug Administration via NIH National Library of Medicine DailyMed API service<br>
 License: Creative Commons Sharealike 4.0 International<br>
-[Codebook available here](https://github.com/opioiddatalab/ExcipientHarm/blob/master/inactive%20ingredients/inactive%20ingredients%20codebook.pdf)
+
 
 
 ## Code
