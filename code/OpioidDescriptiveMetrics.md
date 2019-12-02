@@ -81,5 +81,17 @@ Not available in PMP data. <br>
 1. Outpatient infusions
 1. Any surgery
 
+## Predominant Opioid Type based on Generic Drug Name
+1. Codeine
+2. Hydrocodone
+3. oxycodone
+4. Fentanyl
+5. Hydromorphone
+6. Morphine
+7. Oxymorphone
+8. Tramadol
+9. Buprenorphine
+
+
 ---
 Initial list developed on December 2, 2019 by Bethany, Naoko, Shabbar, Brian, Nab, Alan, and Stephanie at UNC IPRC
