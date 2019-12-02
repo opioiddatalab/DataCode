@@ -1,0 +1,50 @@
+Predominant Opioid Type
+
+ 
+proc format;
+	value opioid_type
+	1= "Codeine"
+	2= "Hydrocodone"
+	3= "Oxycodone"
+	4= "Fentanyl"
+	5= "Hydromorphone"
+	6= "Morphine"
+	7= "Oxymorphone"
+	8= "Tramadol"
+	9= "Other";
+	Run; 
+
+data out.all_opioids;
+	set all_opioids;
+
+*only looking at opioid prescriptions based on CDC NDC list for data resources https://www.cdc.gov/drugoverdose/resources/data.html;
+*without restricting to opioids, this would capture non-opioid scripts with NSAIDS, ASA, or APAP;
+
+	if find(gennme, "acetaminophen", "i") then tylenol =1;
+			else if find(gennme, "apap", "i") then tylenol =1;
+			else if find(gennme, "a.p.c", "i") then tylenol =1;
+			else tylenol =0;
+
+	if find(gennme, "ibuprofen", "i") then nsaid =1;
+			else if find(gennme, "asa", "i") then nsaid =1;
+			else if find(gennme, "aspirin", "i") then nsaid =1;						
+			else nsaid =0;
+
+* op_type_stl refers to author's clinical classificaiton of opioid type;
+	if find(gennme, "codeine", "i") then op_type_stl = 1;
+		else if find(gennme, "hydrocodone", "i") then op_type_stl = 2;
+		else if find(gennme, "oxycodone", "i") then op_type_stl = 3;
+		else if find(gennme, "fentanyl", "i") then op_type_stl = 4;
+		else if find(gennme, "hydromorphone", "i") then op_type_stl = 5;
+		else if find(gennme, "morphine", "i") then op_type_stl = 6;
+		else if find(gennme, "oxymorphone", "i") then op_type_stl = 7;
+		else if find(gennme, "tramadol", "i") then op_type_stl = 8;
+		else op_type_stl = 9;
+
+	format op_type_stl opioid_type.;
+
+	run;
+  
+  
+  
+  Initial code posted Stephanie Lumpkin, MD.  
