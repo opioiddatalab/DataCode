@@ -1,5 +1,9 @@
-# Data and Code
+# Notebooks, Data, Code
 Shortcuts will be availalbe here to all available datasets and computer code.
+
+## Notebooks
+1. Notebook: [Equations on how to calculate milligrams of morphine equivalents](https://opioiddatalab.github.io/MMEequations/MMEequations.html)
+1. Notebook: [Dix Hospital Ledger data cleaning and basic descriptives](https://opioiddatalab.github.io/public/DixAsylum/docs/Dix%20Hospital%20Ledger%20-%20data%20cleaning.html)
 
 ## Data
 These datasets are open access and available to the public. They contain no personally identifying information. All datasets are either used with permission or only contain public data. Attributions to orignal source material are provided.
@@ -21,7 +25,6 @@ Origin: United States Food and Drug Administration via NIH National Library of M
 License: Creative Commons Sharealike 4.0 International<br>
 
 
-
 ## Code
 Each set of code listed below is provided for public use, with the author's consent. Each code set contains a license that details sharing and reuse permissions. Code is written in SAS, Python, Stata, and/or R. 
 
@@ -39,3 +42,5 @@ This code differentiates brand names from generic names of controlled substances
 Stata MP 16 in iPython notebook, November 13, 2019, MIT License<br>
 By Nabarun Dasgupta<br>
 This code will process, format, and create variables from the Dix Asylum (Raleigh, NC, USA) Intake Ledger, covering years 1856 to 1919. 
+
+
