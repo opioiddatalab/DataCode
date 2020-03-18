@@ -7,7 +7,7 @@ Shortcuts will be availalbe here to all available datasets and computer code.
 1. [ICPE 2020 abstract: Do Early Prescribers Of New Drugs Have Different Risk Management Practices?](https://opioiddatalab.github.io/PharmacistPrescriberSurveys/earlyAdopters/ICPEabstractEarlyPrescribers_submitted.html)
 
 ## Data
-These datasets are open access and available to the public. They contain no personally identifying information. All datasets are either used with permission or only contain public data. Attributions to orignal source material are provided.
+These datasets are open access and available to the public. They contain no personally identifying information. All datasets are either used with permission or only contain public data. Attributions to orignal source material are provided. We respect data use agreements. Datasets are either used with permission or only contain publicly available records. They are available under various open access licenses and contain no personally identifying information.
 
 1. [Corpus of FDA-approved controlled substance US drug labels](https://github.com/opioiddatalab/ExcipientHarm/blob/master/inactive%20ingredients/DrugLabelCorpus.md)<br>
 Published: October 3, 2019 by Nabarun Dasgupta<br>
