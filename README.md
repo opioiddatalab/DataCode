@@ -2,8 +2,9 @@
 Shortcuts will be availalbe here to all available datasets and computer code.
 
 ## Notebooks
-1. Notebook: [Equations on how to calculate milligrams of morphine equivalents](https://opioiddatalab.github.io/MMEequations/MMEequations.html)
-1. Notebook: [Dix Hospital Ledger data cleaning and basic descriptives](https://opioiddatalab.github.io/public/DixAsylum/docs/Dix%20Hospital%20Ledger%20-%20data%20cleaning.html)
+1. [Equations on how to calculate milligrams of morphine equivalents](https://opioiddatalab.github.io/MMEequations/MMEequations.html)
+1. [Dix Hospital Ledger data cleaning and basic descriptives](https://opioiddatalab.github.io/public/DixAsylum/docs/Dix%20Hospital%20Ledger%20-%20data%20cleaning.html)
+1. [ICPE 2020 abstract: Do Early Prescribers Of New Drugs Have Different Risk Management Practices?](https://opioiddatalab.github.io/PharmacistPrescriberSurveys/earlyAdopters/ICPEabstractEarlyPrescribers_submitted.html)
 
 ## Data
 These datasets are open access and available to the public. They contain no personally identifying information. All datasets are either used with permission or only contain public data. Attributions to orignal source material are provided.
